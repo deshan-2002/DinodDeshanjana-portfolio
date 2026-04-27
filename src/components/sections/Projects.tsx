@@ -58,8 +58,8 @@ const projects: Project[] = [
     image: "/images/FMCGPA.png",
     tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "GitHub Pages"],
     category: "Web Development",
-    demo: "#",
-    github: "#",
+    demo: "https://dinoddeshanjana.github.io/fmc-gpa-calculator/",
+    github: "https://github.com/DinodDeshanjana/fmc-gpa-calculator.git",
   },
   {
     title: "E-License Management System",
@@ -76,8 +76,8 @@ const projects: Project[] = [
     image: "/images/E-license system.png",
     tags: ["HTML5", "CSS3", "Bootstrap 5", "PHP", "MySQL", "GitHub"],
     category: "Web Development",
-    demo: "#",
-    github: "#",
+
+    github: "https://github.com/DinodDeshanjana/Elicense-System.git",
   },
   {
     title: "AnyStore — Inventory Management",
@@ -94,8 +94,8 @@ const projects: Project[] = [
     image: "/images/login.jpg",
     tags: ["C#", ".NET Framework", "MS SQL Server", "Visual Studio", "SSMS", "GitHub"],
     category: "Web Development",
-    demo: "#",
-    github: "#",
+
+    github: "https://github.com/DinodDeshanjana/Inventory-Management-System.git",
   },
   {
     title: "Three-Wheeler Rental System",
@@ -112,8 +112,8 @@ const projects: Project[] = [
     image: "/images/t.png",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     category: "Web Development",
-    demo: "#",
-    github: "#",
+
+    github: "https://github.com/DinodDeshanjana/Three-Wheeler-Rental-System-project.git",
   },
   {
     title: "Simple GPA Calculator",
@@ -127,11 +127,11 @@ const projects: Project[] = [
     ],
     role: "Solo Developer — Frontend\n\nCreated the full UI layout with responsive styling, implemented the GPA calculation engine, and integrated ScrollReveal.js animations — developed to advance front-end development skills using a real-world use case.",
     results: "Produces instantaneous GPA output as courses are dynamically added or removed, with a polished animation-enhanced interface showcasing strong front-end fundamentals and attention to UX.",
-    image: "/images/cal.png",
+    image: "/images/Cal.png",
     tags: ["HTML5", "CSS3", "JavaScript (ES6)", "ScrollReveal.js"],
     category: "Web Development",
-    demo: "#",
-    github: "#",
+    demo: "https://dinoddeshanjana.github.io/GPA-Calculator/",
+    github: "https://github.com/DinodDeshanjana/GPA-Calculator.git",
   },
   {
     title: "E-License QA Automation",
