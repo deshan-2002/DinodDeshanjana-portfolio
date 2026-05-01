@@ -218,7 +218,7 @@ export default function Projects() {
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-4xl md:text-5xl font-extrabold tracking-tight text-white mb-6"
+              className="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-6"
             >
               My Projects
             </motion.h2>
