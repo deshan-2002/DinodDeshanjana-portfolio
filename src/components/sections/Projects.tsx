@@ -21,7 +21,7 @@ const GithubIcon = ({ className }: { className?: string }) => (
   </svg>
 );
 
-type Category = "All" | "Web Development" | "QA Testing";
+type Category = "All" | "Web Development" | "QA Testing" | "IoT";
 
 type Project = {
   title: string;
@@ -32,7 +32,7 @@ type Project = {
   results?: string;
   image: string;
   tags: string[];
-  category: "Web Development" | "QA Testing";
+  category: "Web Development" | "QA Testing" | "IoT";
   demo?: string;
   github?: string;
   qaDetails?: {
@@ -156,10 +156,40 @@ const projects: Project[] = [
       bugsFound: "Security & Flow Validated",
     }
   },
-
+  {
+    title: "Chanuka Nadeeshan Photography",
+    description: "A visually engaging personal photography portfolio website showcasing photo galleries and professional services.",
+    about: "A visually engaging personal photography portfolio website developed for a photographer to showcase their galleries and professional services. The site emphasizes visual storytelling through high-quality image displays and smooth, mobile-responsive layouts.",
+    keyFeatures: [
+      "Dynamic photo galleries with smooth hover animations",
+      "Fully responsive layout optimized for all devices",
+      "Modern UI built with Bootstrap and custom CSS",
+      "Interactive elements and scroll animations"
+    ],
+    role: "Frontend Developer\n\nDeveloped the complete frontend interface using HTML, CSS, Bootstrap, and JavaScript, focusing on mobile responsiveness and aesthetic animations to highlight the photography.",
+    results: "Delivered a premium, responsive portfolio website that effectively showcases the client's work and enhances their digital presence.",
+    image: "/images/Photography Website.png",
+    tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
+    category: "Web Development",
+    demo: "https://chanuphotography.github.io/chanuka-nadeeshan/",
+  },
+  {
+    title: "Arduino Robot Car",
+    description: "Remote Controlled Car using Arduino technology that can avoid obstacles. Check it out!",
+    about: "🤖 I finished a project where I built a remote controlled car using Arduino technology. This car is not only fun to drive but also smart enough to avoid obstacles in its path.🚀",
+    keyFeatures: [
+      "Remote Control: The car can be controlled remotely using a smartphone(Bluetooth technology is used for this).",
+      "Obstacle Avoidance: Equipped with ultrasonic sensors, the car detects obstacles in its path and avoids them, making it safely to its destination."
+    ],
+    role: "Hardware components:\n\n• Arduino Uno\n• Motor Driver Shield\n• Ultrasonic Sensor\n• Bluetooth Module\n• Battery Pack\n• Motor Driver Module\n• Gear Motors\n• Servo Motor",
+    image: "/images/Arduino Car.jpg",
+    tags: ["Arduino", "IoT", "Bluetooth", "Ultrasonic Sensor", "Robotics"],
+    category: "IoT",
+    github: "https://github.com/DinodDeshanjana/Arduino-Robot-Car.git",
+  },
 ];
 
-const categories: Category[] = ["All", "Web Development", "QA Testing"];
+const categories: Category[] = ["All", "Web Development", "QA Testing", "IoT"];
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState<Category>("All");
@@ -285,7 +315,7 @@ export default function Projects() {
                       <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 dark:group-hover:bg-slate-900/20 transition-colors duration-500" />
                       <div className="absolute top-4 left-4 z-10">
                         <span className="px-3 py-1.5 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md rounded-full text-[10px] font-bold uppercase tracking-wider text-slate-800 dark:text-slate-200 shadow-sm border border-black/5 dark:border-white/10">
-                          {project.category === "Web Development" ? "Web Dev" : "QA"}
+                          {project.category === "Web Development" ? "Web Dev" : project.category === "QA Testing" ? "QA" : "IoT"}
                         </span>
                       </div>
                     </div>

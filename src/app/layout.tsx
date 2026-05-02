@@ -25,7 +25,7 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} scroll-smooth antialiased`}
     >
-      <body className="min-h-screen flex flex-col relative">
+      <body id="home" className="min-h-screen flex flex-col relative">
         <Navbar />
         <main className="flex-1 flex flex-col pt-32">
           {children}

@@ -21,31 +21,30 @@ export default function Navbar() {
           Dinod Deshanjana<span className="text-brand-500 group-hover:text-brand-600 transition-colors"></span>
         </Link>
 
-        {/* Navigation Links Glass Container */}
         <nav className="hidden md:flex items-center gap-8 px-8 py-3 rounded-full glass">
-          <Link href="#home" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
+          <a href="#home" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
             Home
-          </Link>
-          <Link href="#about" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
+          </a>
+          <a href="#about" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
             About
-          </Link>
-          <Link href="#portfolio" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
+          </a>
+          <a href="#portfolio" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
             Portfolio
-          </Link>
-          <Link href="#contact" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
+          </a>
+          <a href="#contact" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">
             Contact
-          </Link>
+          </a>
         </nav>
 
         <div className="flex items-center gap-4">
           {/* CTA Button */}
-          <Link
+          <a
             href="#contact"
             className="hidden sm:flex items-center gap-2 px-5 py-2.5 rounded-full border border-slate-200 dark:border-slate-700 bg-white/50 dark:bg-slate-800/50 hover:bg-white dark:hover:bg-slate-800 shadow-sm transition-all text-sm font-medium hover:scale-105"
           >
             <Briefcase className="w-4 h-4 text-slate-600 dark:text-slate-300" />
             <span>Get In Touch</span>
-          </Link>
+          </a>
 
           {/* Mobile Menu Toggle */}
           <button
@@ -69,11 +68,11 @@ export default function Navbar() {
             className="absolute top-full left-0 right-0 mt-4 px-4 md:hidden"
           >
             <div className="glass rounded-2xl p-4 flex flex-col gap-2 shadow-xl border border-slate-200/50 dark:border-slate-700/50">
-              <Link href="#home" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Home</Link>
-              <Link href="#about" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">About</Link>
-              <Link href="#portfolio" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Portfolio</Link>
-              <Link href="#contact" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Contact</Link>
-              <Link href="#contact" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-brand-500 bg-brand-50/50 dark:bg-brand-500/10 mt-2 text-center">Get In Touch</Link>
+              <a href="#home" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Home</a>
+              <a href="#about" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">About</a>
+              <a href="#portfolio" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Portfolio</a>
+              <a href="#contact" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-slate-800 dark:text-slate-200">Contact</a>
+              <a href="#contact" onClick={() => setIsOpen(false)} className="px-4 py-3 hover:bg-white/50 dark:hover:bg-slate-800/50 rounded-xl transition-colors text-base font-medium text-brand-500 bg-brand-50/50 dark:bg-brand-500/10 mt-2 text-center">Get In Touch</a>
             </div>
           </motion.div>
         )}

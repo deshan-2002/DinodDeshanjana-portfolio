@@ -10,7 +10,7 @@ import ParticleBackground from "../ui/ParticleBackground";
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-[75vh] flex flex-col items-center justify-center relative px-6">
+    <section className="min-h-[75vh] flex flex-col items-center justify-center relative px-6">
 
       {/* Particle Network Background */}
       <ParticleBackground />
