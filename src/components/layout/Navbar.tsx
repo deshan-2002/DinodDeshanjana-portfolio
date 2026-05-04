@@ -17,9 +17,9 @@ export default function Navbar() {
     >
       <div className="w-full max-w-5xl flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold tracking-tight text-slate-800 dark:text-white group">
+        <a href="#home" className="text-2xl font-bold tracking-tight text-slate-800 dark:text-white group">
           Dinod Deshanjana<span className="text-brand-500 group-hover:text-brand-600 transition-colors"></span>
-        </Link>
+        </a>
 
         <nav className="hidden md:flex items-center gap-8 px-8 py-3 rounded-full glass">
           <a href="#home" className="text-base font-medium text-slate-600 hover:text-brand-500 dark:text-slate-300 transition-colors hover:scale-105 transform">

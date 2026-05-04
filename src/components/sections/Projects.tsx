@@ -76,7 +76,7 @@ const projects: Project[] = [
     image: "/images/E-license system.png",
     tags: ["HTML5", "CSS3", "Bootstrap 5", "PHP", "MySQL", "GitHub"],
     category: "Web Development",
-
+    demo: "https://deshan.wuaze.com/index.php?i=1",
     github: "https://github.com/DinodDeshanjana/Elicense-System.git",
   },
   {
