@@ -53,7 +53,7 @@ export default function Hero() {
             className="absolute bottom-6 -left-10 glass rounded-full px-4 py-2 z-20 shadow-xl flex items-center gap-2"
           >
             <span className="w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-indigo-500 block"></span>
-            <span className="text-xs font-semibold text-slate-800 dark:text-slate-200">Engineer</span>
+            <span className="text-xs font-semibold text-slate-800 dark:text-slate-200">QA Engineer</span>
           </motion.div>
         </motion.div>
 
