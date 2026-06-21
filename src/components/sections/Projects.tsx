@@ -157,6 +157,29 @@ const projects: Project[] = [
     }
   },
   {
+    title: "POM-Based Playwright Automation Suite",
+    description: "A complete End-to-End (E2E) test automation framework built from scratch to validate the functionality, security, and UI of a comprehensive Admin Panel application.",
+    about: "A robust, professional-level Page Object Model (POM) test automation suite designed for a comprehensive Admin Panel application. Acts as an automated quality gate executing real-user browser interactions and ensuring security via XSS payload sanitization checks.",
+    keyFeatures: [
+      "Automated E2E quality gate for multiple CMS modules (Auth, Jobs, Blogs, Media, Portfolio, Team)",
+      "Page Object Model (POM) design pattern separating element locators and UI actions from test logic",
+      "Self-cleaning test execution via dynamic data generation and automated teardown scripts",
+      "Security & vulnerability checks integrating automated XSS injection payload tests",
+      "Decoupled test data management utilizing centralized JSON fixture files"
+    ],
+    role: "Solo QA Automation Engineer\n\nArchitected and developed the entire test automation framework from scratch. Wrote structured test specs, implemented the Page Object Model, designed positive, negative, and security test cases, and created data-driven tests using fixture files.",
+    results: "Delivered a comprehensive automated suite consisting of 58 total test cases (29 positive tests and 29 negative, boundary & security tests) across 6 core admin modules, ready for CI/CD integration.",
+    image: "/images/Automation.png",
+    tags: ["JavaScript", "Playwright", "Node.js", "POM", "JSON Fixtures"],
+    category: "QA Testing",
+    github: "https://github.com/DinodDeshanjana/automation-admin-panel.git",
+    qaDetails: {
+      type: "Automation",
+      tools: "Playwright",
+      bugsFound: "58 Tests (29 Pos, 29 Neg/Sec)",
+    }
+  },
+  {
     title: "Chanuka Nadeeshan Photography",
     description: "A visually engaging personal photography portfolio website showcasing photo galleries and professional services.",
     about: "A visually engaging personal photography portfolio website developed for a photographer to showcase their galleries and professional services. The site emphasizes visual storytelling through high-quality image displays and smooth, mobile-responsive layouts.",
