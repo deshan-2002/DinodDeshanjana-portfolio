@@ -94,7 +94,7 @@ export default function Hero() {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="https://drive.google.com/file/d/1H3p8sq-ci4Iu1VAYd3kD9H-JyxYZW3rW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H3p8sq-ci4Iu1VAYd3kD9H-JyxYZW3rW/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-8 py-4 rounded-full font-semibold shadow-lg hover:shadow-brand-500/25 hover:-translate-y-1 transition-all duration-300"
