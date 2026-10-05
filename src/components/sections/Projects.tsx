@@ -44,6 +44,29 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "AI-Powered QA Automation & Automated Bug Reporting",
+    description: "An AI-assisted QA automation project that uses Playwright, GitHub Actions, n8n, and Google Gemini to analyze failed tests and automatically create structured bug reports in Jira and Google Sheets.",
+    about: "An end-to-end QA workflow that connects browser testing, CI execution, AI-powered failure analysis, and defect tracking. When a Playwright test fails in GitHub Actions, n8n sends the failure details to Google Gemini for analysis, then routes the structured bug report to Jira and Google Sheets.",
+    keyFeatures: [
+      "Automated E2E testing with Playwright and execution through GitHub Actions",
+      "Automatically captures failed test details and sends them to an n8n webhook",
+      "Google Gemini analyzes failures and identifies severity, priority, bug type, and possible root cause",
+      "Creates structured defect reports in Jira and tracks tests and bugs in Google Sheets",
+      "Connects the full workflow from test execution through analysis and defect management"
+    ],
+    role: "QA Automation & Workflow Integration\n\nBuilt an automated workflow connecting Playwright test results, GitHub Actions, an n8n webhook, Google Gemini analysis, and Jira and Google Sheets integrations.",
+    results: "Automates the path from a failed E2E test to an AI-analyzed, structured bug report, with defects created in Jira and test and bug data tracked in Google Sheets.",
+    image: "/images/n8n Project.png",
+    tags: ["Playwright", "JavaScript", "GitHub Actions", "n8n", "Google Gemini AI", "Jira", "Google Sheets", "Node.js"],
+    category: "QA Testing",
+    github: "https://github.com/DinodDeshanjana/ai-powered-qa-automation-playwright-n8n",
+    qaDetails: {
+      type: "AI-Assisted Automation",
+      tools: "Playwright, n8n & Gemini",
+      bugsFound: "Automated Jira Reporting",
+    }
+  },
+  {
     title: "FMC GPA Calculator",
     description: "A purpose-built academic tool that eliminates manual grade calculations for undergraduate students.",
     about: "A purpose-built academic tool that eliminates manual grade calculations for undergraduate students at the Faculty of Management and Commerce, SEUSL — covering GPA tracking, cumulative degree GPA, and automated degree class eligibility verification.",

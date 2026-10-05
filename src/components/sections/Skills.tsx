@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code, MonitorSmartphone, ShieldCheck, Database, Wrench, GitMerge } from "lucide-react";
+import { Code, MonitorSmartphone, ShieldCheck, Database, Wrench, Workflow } from "lucide-react";
 
 const skills = [
   {
@@ -12,7 +12,9 @@ const skills = [
       "E2E Automation",
       "Test Plan & Case Design",
       "Bug Verification",
-      "Cross-Browser Testing"
+      "Cross-Browser Testing",
+      "AI-Assisted Failure Analysis",
+      "Automated Bug Reporting"
     ],
     icon: <ShieldCheck className="w-6 h-6 text-accent-500" />
   },
@@ -46,25 +48,32 @@ const skills = [
     icon: <Database className="w-6 h-6 text-emerald-500" />
   },
   {
-    title: "Tools & Platforms",
+    title: "Tools & Methodologies",
     items: [
       "Git & GitHub",
       "Visual Studio",
       "VS Code",
       "SSMS",
-      "GitHub Pages"
-    ],
-    icon: <Wrench className="w-6 h-6 text-orange-500" />
-  },
-  {
-    title: "Methodologies",
-    items: [
+      "GitHub Pages",
       "SDLC",
       "STLC",
       "Agile"
     ],
-    icon: <GitMerge className="w-6 h-6 text-indigo-500" />
-  }
+    icon: <Wrench className="w-6 h-6 text-orange-500" />
+  },
+  {
+    title: "Automation & Integrations",
+    items: [
+      "GitHub Actions",
+      "n8n",
+      "Google Gemini AI",
+      "Jira",
+      "Google Sheets",
+      "Node.js",
+      "Webhooks"
+    ],
+    icon: <Workflow className="w-6 h-6 text-blue-500" />
+  },
 ];
 
 export default function Skills() {
